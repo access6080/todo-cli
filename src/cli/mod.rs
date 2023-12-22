@@ -1,6 +1,7 @@
 use clap::Parser;
 
 mod commands;
+mod db;
 
 pub fn run() {
     let args = commands::Cli::parse();
